@@ -51,3 +51,6 @@ SHOW GRANTS FOR BookUser;
 SHOW GRANTS FOR HResourcesUser ;
 SHOW GRANTS FOR SalesUser ;
 SHOW GRANTS FOR root; /*do one line at a time, else you will only see root privileges*/
+
+
+select * from mysql.general_log;
