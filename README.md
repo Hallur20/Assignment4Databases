@@ -1,6 +1,7 @@
+<h1>Assignment 4 in databases software development</h1>
+<h3>made by Hallur vid Neyst and Murched Kayed</h3>
 
-
-
+<h4>Exercise 1</h4>
 inventory? -> we think the user should write and read
 
 bookkeeping -> only read from order and payments tables but can write in column status in order
@@ -42,7 +43,7 @@ GRANT UPDATE  (comments) ON classicmodels.orders TO SalesUser;
 GRANT SELECT, INSERT ON classicmodels.orderdetails TO SalesUser;
 FLUSH Privileges;
 
-opg2:
+<h4>Exercise 2</h4>
 
 INSERT INTO employees VALUES (1601,"Kayed","Murched","9300","cph-mk420@cphbusiness.dk","2","1621","developers");
 INSERT INTO employees VALUES (1701,"við_Neyst","Hallur","9400","cph-hn131@cphbusiness.dk","2","1621","developers");
@@ -59,3 +60,5 @@ SHOW GRANTS FOR root; /*do one line at a time, else you will only see root privi
 select * from mysql.general_log;
 
 we logged in with the BookUser and tried to insert into the payments table, then we got the error message: command denied to user.
+
+<h4>Exercise 3</h4>
