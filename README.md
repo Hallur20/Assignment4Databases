@@ -54,3 +54,5 @@ SHOW GRANTS FOR root; /*do one line at a time, else you will only see root privi
 
 
 select * from mysql.general_log;
+
+we logged in with the BookUser and tried to insert into the payments table, then we got the error message: command denied to user.
