@@ -46,3 +46,8 @@ INSERT INTO employees VALUES (1701,"við_Neyst","Hallur","9400","cph-hn131@cphbu
 
 INSERT INTO products VALUES ("S72_1234","Mercedes_e220","Classic Cars","1:30","Daimler AG","gray colored car amgcap diesel v6","830","67.31","97.50");INSERT INTO orders VALUES ("104256", "2019-02-22", "2019-02-25", "2019-02-23", "In Process", null, "103");
 
+SHOW GRANTS FOR InventoryUser;
+SHOW GRANTS FOR BookUser;
+SHOW GRANTS FOR HResourcesUser ;
+SHOW GRANTS FOR SalesUser ;
+SHOW GRANTS FOR root; /*do one line at a time, else you will only see root privileges*/
