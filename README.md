@@ -62,3 +62,9 @@ select * from mysql.general_log;
 we logged in with the BookUser and tried to insert into the payments table, then we got the error message: command denied to user.
 
 <h4>Exercise 3</h4>
+
+CREATE USER 'ITUser'@'localhost' IDENTIFIED BY '123456';
+GRANT ALL PRIVILEGES ON * . * TO 'ITUser'@'localhost';
+
+mysqldump -u ITUser -p --opt --all-databases > testDump2.sql
+docker cp 143ede981bd1:/testDump2.sql .
