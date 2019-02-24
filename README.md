@@ -81,3 +81,5 @@ mysqldump -u ITUser -p --opt --all-databases > testDump2.sql
 
 docker cp 143ede981bd1:/testDump2.sql .
 ```
+
+<p>the dump file can be seen by clicking <a>here<a/></p>
