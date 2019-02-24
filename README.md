@@ -64,7 +64,7 @@ SHOW GRANTS FOR InventoryUser;
 SHOW GRANTS FOR BookUser;
 SHOW GRANTS FOR HResourcesUser ;
 SHOW GRANTS FOR SalesUser ;
-SHOW GRANTS FOR root; /*do one line at a time, else you will only see root privileges*/
+SHOW GRANTS FOR ITUser; /*do one line at a time, else you will only see ITUser privileges*/
 
 
 select * from mysql.general_log;
