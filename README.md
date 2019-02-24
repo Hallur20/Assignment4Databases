@@ -43,6 +43,10 @@ GRANT SELECT ON classicmodels.orders TO SalesUser;
 GRANT UPDATE  (comments) ON classicmodels.orders TO SalesUser;
 GRANT SELECT, INSERT ON classicmodels.orderdetails TO SalesUser;
 FLUSH Privileges;
+
+CREATE USER 'ITUser'@'localhost' IDENTIFIED BY '123456';
+GRANT ALL PRIVILEGES ON * . * TO 'ITUser'@'localhost';
+FLUSH Privileges;
 ```
 
 
@@ -67,8 +71,7 @@ we logged in with the BookUser and tried to insert into the payments table, then
 
 <h4>Exercise 3</h4>
 
-CREATE USER 'ITUser'@'localhost' IDENTIFIED BY '123456';
-GRANT ALL PRIVILEGES ON * . * TO 'ITUser'@'localhost';
+
 
 mysqldump -u ITUser -p --opt --all-databases > testDump2.sql
 docker cp 143ede981bd1:/testDump2.sql .
