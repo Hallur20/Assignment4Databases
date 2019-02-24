@@ -13,9 +13,6 @@
 
 
 ```sql
-test
-```
-
 CREATE USER 'InventoryUser';
 GRANT SELECT, INSERT ON classicmodels.products TO InventoryUser;
 GRANT SELECT, INSERT ON classicmodels.productlines TO InventoryUser;
@@ -45,6 +42,9 @@ GRANT SELECT ON classicmodels.orders TO SalesUser;
 GRANT UPDATE  (comments) ON classicmodels.orders TO SalesUser;
 GRANT SELECT, INSERT ON classicmodels.orderdetails TO SalesUser;
 FLUSH Privileges;
+```
+
+
 
 <h4>Exercise 2</h4>
 
