@@ -52,7 +52,9 @@ FLUSH Privileges;
 
 
 <h4>Exercise 2</h4>
+<p>we inserted two users and a mercedes car as the product, afterwards we checked priveleges on users one by one, and in the end we then checked the log. Code snippet is down below</p>
 
+```sql
 INSERT INTO employees VALUES (1601,"Kayed","Murched","9300","cph-mk420@cphbusiness.dk","2","1621","developers");
 INSERT INTO employees VALUES (1701,"við_Neyst","Hallur","9400","cph-hn131@cphbusiness.dk","2","1621","developers");
 
@@ -70,7 +72,7 @@ select * from mysql.general_log;
 we logged in with the BookUser and tried to insert into the payments table, then we got the error message: command denied to user.
 
 <h4>Exercise 3</h4>
-
+```
 
 
 mysqldump -u ITUser -p --opt --all-databases > testDump2.sql
