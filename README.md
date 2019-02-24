@@ -8,6 +8,7 @@
   <li>the user responsible for <b>bookkeeping</b> should be able to only read with the exception of writing in the status column in the orders table. This is because we think that messing with the actual order does not make sense, only the status where fex. "shipped" could be an option makes sense</li>
   <li>the user responsible for <b>human resources</b> should be able to read from offices, but in employees write and read. This is because we think that the offices aren't data that changes very often (if at all), but employees can change their positions in work at any time (f.ex he/she can be fired, promoted etc...)</li>
   <li>the user responsible for <b>sales</b> should be able to read from orders and orderdetails. The user has acces to help a customer with writing data to the order details table. And lastly, write in the comment column in the orders table if something is worth noting on a customer and the item</li>
+  <li>The IT user should have access to all (so that there are no restrictions on fixing a database), much like the default root user</li>
   </ul>
 
 
