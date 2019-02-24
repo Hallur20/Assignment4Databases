@@ -12,9 +12,9 @@
   </ul>
 
 
-´´´sql
+```sql
 test
-´´´
+```
 
 CREATE USER 'InventoryUser';
 GRANT SELECT, INSERT ON classicmodels.products TO InventoryUser;
