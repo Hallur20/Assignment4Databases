@@ -11,7 +11,8 @@
   <li>The IT user should have access to all (so that there are no restrictions on fixing a database), much like the default root user</li>
   </ul>
 
-<p>sqp code snippets on how we created the users/permissions</p>
+<p>sqp code snippets on how we created the users/permissions:</p>
+
 ```sql
 CREATE USER 'InventoryUser';
 GRANT SELECT, INSERT ON classicmodels.products TO InventoryUser;
