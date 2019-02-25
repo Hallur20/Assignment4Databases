@@ -11,7 +11,7 @@
   <li>The IT user should have access to all (so that there are no restrictions on fixing a database), much like the default root user</li>
   </ul>
 
-<p>sql code snippets on how we created the users/permissions:</p>
+<p>Sql code snippets on how we created the users/permissions:</p>
 
 ```sql
 CREATE USER 'InventoryUser';
@@ -52,7 +52,7 @@ FLUSH Privileges;
 
 
 <h4>Exercise 2</h4>
-<p>we inserted two users and a mercedes car as the product, afterwards we checked priveleges on users one by one, and in the end we then checked the log. Code snippet is down below</p>
+<p>We inserted two users and a mercedes car as the product, afterwards we checked priveleges on users one by one, and in the end we then checked the log. Code snippet is down below</p>
 
 ```sql
 INSERT INTO employees VALUES (1601,"Kayed","Murched","9300","cph-mk420@cphbusiness.dk","2","1621","developers");
