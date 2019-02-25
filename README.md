@@ -69,10 +69,10 @@ SHOW GRANTS FOR ITUser; /*do one line at a time, else you will only see ITUser p
 
 select * from mysql.general_log;
 ```
-<p>after completing this, we tested the priveleges by connecting with the BookUser and tried to insert data into the payments table. (this should be an illegal privellege) - and sure enough we got the error: command denied to user.</p>
+<p>After completing this, we tested the priveleges by connecting with the BookUser and tried to insert data into the payments table. (this should be an illegal privellege) - and sure enough we got the error: command denied to user.</p>
 
 <h4>Exercise 3</h4>
-<p>we opened sql in the docker container and used our "it-user" with the password: '123456' in order to make a dump file. Then we exited the container 
+<p>We opened sql in the docker container and used our "it-user" with the password: '123456' in order to make a dump file. Then we exited the container 
 and navigated to the mysql_databasefiles directory and copied the dump file in order to get a copy of it. Code snippets on the linux commands are down below.</p>
 
 ```bash
