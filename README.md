@@ -1,5 +1,5 @@
 <h1>Assignment 4 in databases software development</h1>
-<h3>made by Hallur vid Neyst and Murched Kayed</h3>
+<h3>Made by Hallur vid Neyst and Murched Kayed</h3>
 
 <h4>Exercise 1</h4>
 <p>our discussions on the priveleges on the systems</p>
